@@ -7,9 +7,13 @@ services:
 # mongoDB
     ports:
       - "27017:27017"
+    deploy:
+      replicas: 4
   server:
     image: seventist/d11_1
 #php
     ports:
       - "80:80"
+    deploy:
+      replicas: 4
 # dockerfile - записані в redme     
