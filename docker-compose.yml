@@ -1,0 +1,14 @@
+# domashka 11
+version: '3'
+
+services:
+  database:
+    image: seventist/d11
+# mongoDB
+    ports:
+      - "27017:27017"
+  server:
+    image: seventist/d11_1
+#php
+    ports:
+      - "80:80"
