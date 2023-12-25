@@ -12,3 +12,4 @@ services:
 #php
     ports:
       - "80:80"
+# dockerfile - записані в redme     
